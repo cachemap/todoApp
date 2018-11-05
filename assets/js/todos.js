@@ -25,6 +25,6 @@ $("input[type='text']").keypress(function(event) {
 		$(this).val("");
 
 		// Create a new li containing todoText
-		$("ul").append("<li> <span>X</span> " + todoText + "</li>")
+		$("ul").append("<li> <span><i class='fa fa-trash'></i></span> " + todoText + "</li>")
 	}
 })
